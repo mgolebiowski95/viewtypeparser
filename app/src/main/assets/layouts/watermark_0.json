@@ -1,0 +1,26 @@
+{
+    "type": "ConstraintLayout",
+    "layout_width": "match_parent",
+    "layout_height": "match_parent",
+    "children": [
+        {
+            "type": "TextView",
+            "id": "@+id/a",
+            "text": "15°"
+        },
+        {
+            "type": "TextView",
+            "id": "@+id/b",
+            "layout_constraintTop_toBottomOf": "@id/a",
+            "text": "Sunny°"
+        },
+        {
+            "type": "TextView",
+            "text": "☀🌦🦅",
+            "textColor":"#ffffff",
+            "textSize":"55sp",
+            "layout_constraintTop_toBottomOf": "@id/b",
+            "font": "@font/emojione_android"
+        }
+    ]
+}

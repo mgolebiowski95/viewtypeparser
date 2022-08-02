@@ -1,0 +1,20 @@
+{
+    "id": "0",
+    "type": "TextView",
+    "layout_width": "wrap_content",
+    "layout_height": "200dp",
+    "text": "@string/data",
+    "textSize": "16sp",
+    "textAllCaps": "true",
+    "background": {
+        "type": "ColorDrawable",
+        "color": "#fffff0"
+    },
+    "textColor": "#ff0000ff",
+    "padding": "8dp",
+    "gravity": "start",
+    "layout_margin": "8dp",
+    "layout_gravity": "center",
+    "post": {
+    }
+}

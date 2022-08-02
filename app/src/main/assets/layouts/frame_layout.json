@@ -1,0 +1,17 @@
+{
+    "type": "LinearLayout",
+    "id": 22,
+    "background": "#ff222222",
+    "layout_height": "match_parent",
+    "layout_width": "200dp",
+    "layout_gravity":"end",
+    "children": [
+        {
+            "type": "TextView",
+            "id": 5,
+            "background": "#89ffff00",
+            "text": "hello world",
+            "layout_gravity":"center"
+        }
+    ]
+}

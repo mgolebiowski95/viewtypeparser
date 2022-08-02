@@ -1,0 +1,66 @@
+{
+    "type": "LinearLayout",
+    "background": "#89000000",
+    "gravity": "center",
+    "layout_gravity": "end",
+    "layout_width": "256dp",
+    "layout_height": "match_parent",
+    "orientation": "vertical",
+    "children": [
+        {
+            "type": "TextView",
+            "background": "#ffffffff",
+            "font": "@font/emojione_android",
+            "text": "🇧🇾",
+            "textColor": "#ff000000",
+            "textSize": "55sp"
+        },
+        {
+            "type": "TextView",
+            "background": "#ffffffff",
+            "textColor": "#ff000000",
+            "text": "🇧🇾",
+            "font": "@font/noto_color_emoji",
+            "textSize": "55sp"
+        },
+        {
+            "type": "FrameLayout",
+            "background": "#89000000",
+            "layout_height": "0dp",
+            "layout_width": "match_parent",
+            "layout_weight": "1",
+            "children": [
+                {
+                    "type": "TextView",
+                    "background": "#ffffffff",
+                    "layout_gravity": "center",
+                    "font": "@font/cfplantsandflowers",
+                    "textColor": "#4DBD33",
+                    "text": "grass",
+                    "textSize": "55sp"
+                }
+            ]
+        },
+        {
+            "type": "ConstraintLayout",
+            "background": "#89000000",
+            "layout_height": "0dp",
+            "layout_width": "match_parent",
+            "layout_weight": "1",
+            "children": [
+                {
+                    "type": "TextView",
+                    "style": "@style/title",
+                    "background": "#ffffffff",
+                    "layout_constraintAnchor_toAnchorOf": "parent",
+                    "layout_width": "wrap_content",
+                    "layout_height": "0dp",
+                    "layout_constraintDimensionRatio": "1:1",
+                    "text": "@fn/placeholder",
+                    "gravity": "center",
+                    "textSize": "24sp"
+                }
+            ]
+        }
+    ]
+}

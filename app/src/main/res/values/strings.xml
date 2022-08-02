@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="data" formatted="true">✓ Almost 100 awesome skins\n✓  New stuff every month\n✓   No logo and ads</string>
+</resources>

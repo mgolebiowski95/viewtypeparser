@@ -1,0 +1,13 @@
+{
+    "type": "ImageView",
+    "layout_width": "200dp",
+    "layout_height": "400dp",
+    "background": "#0000ff",
+    "padding": "16dp",
+    "src": {
+        "type": "GradientDrawable",
+        "corners": {
+            "radius": "50"
+        }
+    }
+}

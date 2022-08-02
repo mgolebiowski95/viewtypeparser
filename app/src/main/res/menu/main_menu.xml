@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/reload"
+        android:icon="@drawable/ic_refresh_black_24dp"
+        android:title="reload"
+        app:iconTint="#fff"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/load"
+        android:icon="@drawable/ic_folder_open_black_24dp"
+        app:iconTint="#fff"
+        android:title="load"
+        app:showAsAction="always" />
+</menu>
